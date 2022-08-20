@@ -41,6 +41,9 @@ p {
 
 h3 {
     letter-spacing: 0.07em;
+    color: white;
+    font-family: morganite;
+    font-size: 4rem;
 }
 
 /* Navegation */
@@ -123,6 +126,19 @@ main {
     justify-content: center;
     margin-top: 2rem;
     font-size: 3rem;
+}
+
+.introduction-video-overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 
