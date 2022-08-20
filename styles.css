@@ -1,0 +1,108 @@
+
+/* General styles */
+
+@font-face {
+    src: url(fonts/Morganite/Morganite-Light.ttf);
+    font-family: morganite;
+}
+
+@font-face {
+    src: url(fonts/Morganite/Morganite-ExtraBold.ttf);
+    font-family: morganite-bold;
+}
+
+.container {
+    max-width: 100vw;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    font-size: 10em;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5em;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+/* Navegation */
+
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    transition: ease 1s;
+    display: flex;
+    width: 100vw;
+    font-family: 'Aboreto', cursive;
+}
+
+.navbar:hover {
+    background-color: #ffffffc0;
+}
+
+.nav-container a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 8px;
+}
+
+.project-list:first-child {
+    border-top: 1px solid black;
+}
+
+.project-container {
+    width: 14rem;
+}
+
+.project-heading {
+    border-bottom: 1px solid black;
+}
+
+/* Main page */
+.header-text p {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+}
+
+main {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header-text {
+    position: absolute;
+    color: #ffffff;
+    opacity: 0.85;
+    font-family: morganite, cursive;
+}
+
+.main-video {
+    width: 100vw;
+}
+
+.card-text {
+    font-size: 0.1em im !important;
+}
+
+
