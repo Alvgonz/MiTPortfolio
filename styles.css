@@ -46,6 +46,11 @@ h3 {
     font-size: 4rem;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Navegation */
 
 .navbar {
@@ -118,6 +123,7 @@ main {
 
 .play-button {
     color: white;
+    cursor: pointer;
 }
 
 .video-icon {
@@ -126,10 +132,11 @@ main {
     justify-content: center;
     margin-top: 2rem;
     font-size: 3rem;
+    
 }
 
 .introduction-video-overlay {
-    position: absolute;
+    /* position: absolute; */
     z-index: 3;
     top: 0;
     justify-content: center;
@@ -139,6 +146,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.753);
+    color: white;
 }
 
 
