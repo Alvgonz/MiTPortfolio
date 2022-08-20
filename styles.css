@@ -124,6 +124,9 @@ main {
 .play-button {
     color: white;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .video-icon {
@@ -136,14 +139,14 @@ main {
 }
 
 .introduction-video-overlay {
-    /* position: absolute; */
+    position: absolute;
     z-index: 3;
     top: 0;
     justify-content: center;
     text-align: center;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.753);
     color: white;
