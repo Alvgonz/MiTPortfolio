@@ -2,12 +2,12 @@
 /* General styles */
 
 @font-face {
-    src: url(fonts/Morganite/Morganite-Light.ttf);
+    src: url(fonts/Morganite-Light.ttf);
     font-family: morganite;
 }
 
 @font-face {
-    src: url(fonts/Morganite/Morganite-ExtraBold.ttf);
+    src: url(fonts/Morganite-ExtraBold.ttf);
     font-family: morganite-bold;
 }
 
