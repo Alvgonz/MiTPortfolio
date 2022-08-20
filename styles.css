@@ -11,6 +11,8 @@
     font-family: morganite-bold;
 }
 
+
+
 .container {
     max-width: 100vw;
     text-align: center;
@@ -95,6 +97,7 @@ main {
     color: #ffffff;
     opacity: 0.85;
     font-family: morganite, cursive;
+    
 }
 
 .main-video {
@@ -103,6 +106,13 @@ main {
 
 .card-text {
     font-size: 0.1em im !important;
+}
+
+.video-icon {
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 
