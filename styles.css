@@ -109,8 +109,7 @@ main {
     position: absolute;
     color: #ffffff;
     opacity: 0.85;
-    font-family: morganite, cursive;
-    
+    font-family: morganite;
 }
 
 .main-video {
@@ -127,7 +126,10 @@ main {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    z-index: 10;
 }
+
+/* Video section */
 
 .video-icon {
     color: white;
@@ -149,6 +151,15 @@ main {
     display: none;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+}
+
+.ease-video {
+    color: transparent;
+    transition: 1s ease;
+}
+
+.ease-video:hover {
     color: white;
 }
 
