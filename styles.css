@@ -56,7 +56,7 @@ a {
 .navbar {
     background-color: transparent;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     transition: ease 1s;
     display: flex;
     width: 100vw;
@@ -93,11 +93,6 @@ a {
 }
 
 /* Main page */
-.header-text p {
-    font-size: 3em;
-    font-weight: 400;
-    letter-spacing: 0.08em;
-}
 
 main {
     position: relative;
@@ -110,10 +105,27 @@ main {
     color: #ffffff;
     opacity: 0.85;
     font-family: morganite;
+    text-align: center;
+    width: 1000px;
+    justify-content: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.header-text p {
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
 }
 
 .main-video {
-    width: 100vw;
+   min-width: 100vw;
+   min-height: 100vh;
+   z-index: 1;
 }
 
 .card-text {
@@ -155,12 +167,10 @@ main {
 }
 
 .ease-video {
-    color: transparent;
+    color: white;
     transition: 1s ease;
 }
 
-.ease-video:hover {
-    color: white;
-}
+
 
 
