@@ -77,7 +77,9 @@
         <div class="header-text">
             <h1>Alvaro  Gonzalez</h1>
             <p>Portfolio</p>
-            <button>play</button>
+            <button onclick="showVideo()" class="play-button" >
+                <i class="fa fa-play"></i>
+            </button>
             <h3 class="ease-video">Watch my introduction video</h3>
         </div>
 
@@ -85,12 +87,13 @@
     </main>
 
 
-    <div class="introduction-video-overlay" >
+    <div class="introduction-video-overlay" id="introduction-video-overlay">
         
+        <h3>About me</h3>
         <div class="introduction-video-container">
             <iframe width="800" height="450" src="https://www.youtube.com/embed/hTFDlGv2IWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <h3>About me</h3>
+        
         <button class="hide-video" onclick="hideVideo()">X</button>
     </div>
 

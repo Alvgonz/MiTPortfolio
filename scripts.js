@@ -1,6 +1,6 @@
 console.log('Hello world');
 
-let introVideo = document.getElementById('collapseVideo');
+let introVideo = document.getElementById('introduction-video-overlay');
 
 function showVideo() {
     introVideo.style.display = "flex";
