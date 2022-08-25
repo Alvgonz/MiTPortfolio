@@ -204,7 +204,7 @@ main {
 }
 
 .project-link-text {
-    background-color: transparent
+    background-color: transparent;
     color: black;
     padding: 1rem;
     text-align: center;
@@ -219,5 +219,12 @@ main {
 
 .bio {
     background-color: white;
-    
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+
+.bio-container {
+    background-color: white;
+    font-family: 'Aboreto', cursive;
 }
